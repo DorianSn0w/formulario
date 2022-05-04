@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exercicio2.css">
+    <title>Cadastro de endereço</title>
+</head>
+
+<body>
+    <div class="mainText">
+        <h1>Cadastro de endereço</h1>
+    </div>
+
+    <div class="form">
+        <label class="personalData">
+            <fieldset>
+                <legend>Personal Data</legend>
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <th>
+                                Name:
+                            </th>
+                            <td>
+                                <input type="text" placeholder="Seu Nome Aqui" autofocus>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                CPF:
+                            </th>
+                            <td>
+                                <input type="text" placeholder="000.000.000-00">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Cellphone:
+                            </th>
+                            <td>
+                                <input type="tel" placeholder="(00) 90000-0000">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Instagram:
+                            </th>
+                            <td>
+                                <input type="text" placeholder="@yago_sobreira">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </label>
+
+        <label class="personalAddress">
+            <fieldset>
+                <legend>Endereço</legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Logradouro:
+                            </th>
+                            <td>
+                                <input type="text" placeholder="Rua, Av">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Número:
+                            </th>
+                            <td>
+                                <input type="number" placeholder="1440">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Bairro:
+                            </th>
+                            <td>
+                                <input type="text" placeholder="Centro">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Estado:
+                            </th>
+                            <td class="city">
+                                <select name="estados" id="estados" size="1">
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espirito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Cidade:
+                            </th>
+                            <td class="city">
+                                <select name="cidades" id="cidades" size="1">
+                                    <option value="">Cidade 1</option>
+                                    <option value="">Cidade 2</option>
+                                    <option value="">Cidade 3</option>
+                                    <option value="">Cidade 4</option>
+                                    <option value="">Cidade 5</option>
+                                    <option value="">Cidade 6</option>
+                                    <option value="">Cidade 7</option>
+                                    <option value="">Cidade 8</option>
+                                    <option value="">Cidade 9</option>
+                                    <option value="">Cidade 10</option>
+                                    <option hidden>Rio Grande do Norte</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                CEP:
+                            </th>
+                            <td>
+                                <input type="text" placeholder="00.000-000">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </label>
+
+        <label class="mesage">
+            <fieldset>
+                <legend>Mensagem</legend>
+                <table>
+                    <thead>
+                        Solicite seu orçamento:
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>
+                                <textarea name="mensagem" id="mensagem"
+                                    placeholder="Coloque seu texto aqui..."></textarea>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </label>
+
+        <label class="buttons">
+            <fieldset>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>
+                                <input class="botao" type="submit" value="Enviar Dados">
+                            </th>
+                            <td>
+                                <input class="botao" type="submit" value="Limpar Dados">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </label>
+
+</body>
+
+</html>
